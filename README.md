@@ -1,5 +1,5 @@
 # ProjectPPB-TicketBusApp
-Projek yang dikembangkan oleh Johanes untuk memenuhi persyaratan UAS di Mata Kuliah: Pemrograman Perangkat Bergerak
+Projek yang dikembangkan oleh Johanes untuk memenuhi persyaratan UAS di Mata Kuliah: Pemrograman Perangkat Bergerak.
 Link UI: https://www.figma.com/file/yrobG23YxrCkF0sIIwy4ZD/PPB?node-id=0%3A1
 
 Versi: 0.1 
