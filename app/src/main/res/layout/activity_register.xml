@@ -45,7 +45,7 @@
                 android:textColor="@color/black" />
 
             <EditText
-                android:id="@+id/username1"
+                android:id="@+id/edEmailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
@@ -59,7 +59,7 @@
                 android:textColorHint="@color/black" />
 
             <EditText
-                android:id="@+id/password1"
+                android:id="@+id/edPasswordRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
@@ -76,7 +76,7 @@
                 android:id="@+id/btnRegister_2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="175dp"
+                tools:layout_marginStart="175dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/rectangle_button"
                 android:fontFamily="@font/dmsans_medium"
