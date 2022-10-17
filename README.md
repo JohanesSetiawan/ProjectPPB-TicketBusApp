@@ -8,6 +8,7 @@ Layout HP yang digunakan: Realme 2
 Layar: 6.2 inci (1520 x 720)
 
 Versi: 0.1 
+
 Change Log:
  - Ada Splash Screen
  - UI Login dan Register
