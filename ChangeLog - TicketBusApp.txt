@@ -1,0 +1,16 @@
+Change Log - TicketBusApp
+
+Author: Johanes Setiawan
+
+Developer Debugging
+Versi 0.1 - dev:
+ - SplashScreen added
+ - Login & Register (only intent button)
+ - GetStarted added
+Update: 15 sampai 16 Oktober 2022
+
+Versi 0.2 - dev:
+ - Added Firebase for login & register
+ - Make Algoritm for GetStarted after login user success
+ - Bug UI (Fix Soon)
+Update: 17 Oktober 2022

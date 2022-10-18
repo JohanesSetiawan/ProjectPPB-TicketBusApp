@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
-    Button keRegister, btnLogin_1;
+    Button keRegister, btnLogin;
     EditText ed_email1, ed_password1;
     final String TAG = "Login";
     private FirebaseAuth mAuth;
@@ -24,7 +24,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         keRegister = findViewById(R.id.btnRegister_1);
-        btnLogin_1 = findViewById(R.id.btnLogin_1);
+        btnLogin = findViewById(R.id.btnLogin);
         ed_email1 = findViewById(R.id.edEmailLogin);
         ed_password1 = findViewById(R.id.edPasswordLogin);
 
@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        btnLogin_1.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(ed_email1.getText().toString().isEmpty() || ed_password1.getText().toString().isEmpty()){
