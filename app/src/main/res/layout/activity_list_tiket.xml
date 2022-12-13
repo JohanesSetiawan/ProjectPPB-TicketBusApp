@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putihcoklat"
+    tools:context=".ListTiket">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="319dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="841dp"
+        android:fontFamily="@font/league_spartan_medium"
+        android:text="Halo 👋, Selamat Datang."
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="736dp"
+            app:srcCompat="@drawable/rectangle_rounded_username" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="364dp"
+            android:layout_marginBottom="48dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Saldo"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="284dp"
+            android:layout_marginBottom="10dp"
+            android:text="Rp 2.000.000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:fontFamily="@font/poppins_medium" />
+
+        <Button
+            android:id="@+id/btnIsiSaldo"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_marginStart="294dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/rectangle_button"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Isi Saldo?" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="685dp"
+            android:fontFamily="@font/league_spartan_regular"
+            android:text="List tiket yang masuk: 3"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="521dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="138dp"
+            android:src="@drawable/rectangle_button" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="300dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/rectangle_button_3"
+            android:text="Booking Tiket" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
