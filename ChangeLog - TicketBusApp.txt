@@ -18,3 +18,7 @@ Update: 17 Oktober 2022
 Versi 0.2.1 - dev:
  - Bug UI (Solved, Yeay!)
 Update: 18 Oktober 2022
+
+Versi 0.3 - dev:
+ - Remake UI and Modified
+Update: 13 Desember 2022
