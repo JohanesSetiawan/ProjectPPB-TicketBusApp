@@ -14,3 +14,7 @@ Versi 0.2 - dev:
  - Make Algoritm for GetStarted after login user success
  - Bug UI (Fix Soon)
 Update: 17 Oktober 2022
+
+Versi 0.2.1 - dev:
+ - Bug UI (Solved, Yeay!)
+Update: 18 Oktober 2022
