@@ -39,7 +39,7 @@ public class GetStarted extends AppCompatActivity {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Toast.makeText(this, "Yeay, kamu sudah masuk sebagai: "+currentUser.getEmail()+".", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Yeay, berhasil masuk sebagai: "+currentUser.getEmail()+".", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(GetStarted.this, MainActivity.class);
             startActivity(intent);
             finish();

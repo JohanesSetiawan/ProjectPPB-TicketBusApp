@@ -58,13 +58,15 @@ public class Login extends AppCompatActivity {
                         FirebaseUser user = mAuth.getCurrentUser();
                         Toast.makeText(Login.this, "Yeay, berhasil masuk sebagai: "+user.getEmail()+".", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(Login.this, MainActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                         finish();
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w(TAG, "signInWithEmail:failure", task.getException());
-                        Toast.makeText(Login.this, "Yah gagal, coba lagi yuk.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login.this, "Gagal, coba lagi yuk.", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(Login.this, Login.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                         finish();
                     }
@@ -76,7 +78,7 @@ public class Login extends AppCompatActivity {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null){
-            Toast.makeText(this, "Yeay, kamu sudah masuk sebagai: "+currentUser.getEmail()+".", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Yeay, berhasil masuk sebagai: "+currentUser.getEmail()+".", Toast.LENGTH_SHORT).show();
             startActivity(new Intent(Login.this, MainActivity.class));
             finish();
         }

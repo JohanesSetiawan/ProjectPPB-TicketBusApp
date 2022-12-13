@@ -27,7 +27,7 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        keLogin = findViewById(R.id.btnLogin_2);
+        keLogin = findViewById(R.id.btnLogin_1);
         btnRegister = findViewById(R.id.btnRegister);
         ed_email2 = findViewById(R.id.edEmailRegister);
         ed_password2 = findViewById(R.id.edPasswordRegister);
@@ -64,13 +64,15 @@ public class Register extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(Register.this, "Yeay, berhasil mendaftar sebagai: "+user.getEmail()+".", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(Register.this, MainActivity.class);
+                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
                             finish();
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(Register.this, "Yah gagal, coba lagi yuk.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Register.this, "Gagal, coba lagi yuk.", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(Register.this, Register.class);
+                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
                             finish();
                         }
