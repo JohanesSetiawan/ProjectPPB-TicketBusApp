@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLogout, btnBooking, btnLihatTiket, btnIsiSaldo;
+    Button btnLogout, btnBooking, btnLihatTiket;
     EditText edNamaPenumpang;
     Spinner spUsedBis, spUsedKelas, spBerangkatKota, spTibaKota, spOrangDewasa, spOrangAnak;
     SharedPreferences sharedPreferences;
@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         btnLogout = findViewById(R.id.btnLogout);
         btnBooking = findViewById(R.id.btnBooking);
         btnLihatTiket = findViewById(R.id.btnLihatTiket);
-        btnIsiSaldo = findViewById(R.id.btnIsiSaldo);
 
         edNamaPenumpang = findViewById(R.id.edNamaPenumpang);
 
