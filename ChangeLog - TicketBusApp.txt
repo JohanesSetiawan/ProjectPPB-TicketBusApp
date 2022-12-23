@@ -26,3 +26,8 @@ Update: 13 Desember 2022
 Versi 0.3.1 - dev:
  - Added UI List Tiket
 Update: 14 Desember 2022
+
+Versi 0.4 (Beta) - dev:
+ - FINALLY DONE.
+ - But, still have a little bug.
+Update: 23 Desember 20222
