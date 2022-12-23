@@ -1,7 +1,7 @@
 # ProjectPPB-TicketBusApp
 Projek yang dikembangkan oleh Johanes untuk memenuhi persyaratan UAS di Mata Kuliah: Pemrograman Perangkat Bergerak.
 
-Link UI: https://www.figma.com/file/yrobG23YxrCkF0sIIwy4ZD/PPB?node-id=0%3A1
+Link UI: https://www.figma.com/file/CWe07k6a33K92xVFumJpRl/PPBUAS---Ticket-BusKu-(Re-Design)?node-id=0%3A1&t=JEsdxMYlt2ndYCCG-1
 
 Layout HP yang digunakan: Realme 2
 
