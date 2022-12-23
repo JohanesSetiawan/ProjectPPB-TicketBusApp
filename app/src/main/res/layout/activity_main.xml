@@ -30,7 +30,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="invisible">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -89,265 +90,239 @@
             android:fontFamily="@font/poppins_medium"
             android:text="Isi Saldo?" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="690dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="223dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginBottom="33dp"
-                app:srcCompat="@drawable/rectangle_button" />
-
-        </RelativeLayout>
-
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="675dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Nama Penumpang"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-        <EditText
-            android:id="@+id/edNamaPenumpang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="620dp"
-            android:background="@drawable/rectangle_rounded_username"
-            android:ems="10"
-            android:hint="Nama Penumpang"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:padding="10dp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="585dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Bis yang digunakan"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-        <Spinner
-            android:id="@+id/spUsedBis"
+        <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="530dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="80dp"
+            app:srcCompat="@drawable/rectangle_button" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="500dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Kelas yang digunakan"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-        <Spinner
-            android:id="@+id/spUsedKelas"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="445dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="415dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Berangkat (Kota)"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="745dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Nama Penumpang"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/spBerangkatKota"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="280dp"
-            android:layout_marginBottom="360dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            <EditText
+                android:id="@+id/edNamaPenumpang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="680dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:ems="10"
+                android:hint="Nama Penumpang"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                tools:background="@drawable/rectangle_rounded_username" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="260dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="415dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Tiba (Kota)"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="640dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Bis yang digunakan"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/spTibaKota"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="260dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="360dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            <Spinner
+                android:id="@+id/spUsedBis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="580dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="330dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Tanggal Keberangkatan"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="540dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Kelas yang digunakan"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-        <EditText
-            android:id="@+id/edTanggalKeberangkatan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="275dp"
-            android:background="@drawable/rectangle_rounded_username"
-            android:ems="10"
-            android:hint="Tanggal Keberangkatan"
-            android:inputType="date|datetime"
-            android:minHeight="48dp"
-            android:padding="10dp" />
+            <Spinner
+                android:id="@+id/spUsedKelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="480dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="240dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Dewasa (org)"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="445dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Berangkat (Kota)"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/spOrangDewasa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="280dp"
-            android:layout_marginBottom="185dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            <Spinner
+                android:id="@+id/spBerangkatKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="280dp"
+                android:layout_marginBottom="380dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="260dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="240dp"
-            android:fontFamily="@font/league_spartan_regular"
-            android:text="Anak (org)"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="260dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="445dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Tiba (Kota)"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/spOrangAnak"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="260dp"
-            android:layout_marginEnd="35dp"
-            android:layout_marginBottom="185dp"
-            android:contentDescription="dd"
-            android:minHeight="48dp" />
+            <Spinner
+                android:id="@+id/spTibaKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="260dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="380dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="340dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Dewasa (org)"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spOrangDewasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="280dp"
+                android:layout_marginBottom="280dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="260dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="340dp"
+                android:fontFamily="@font/league_spartan_regular"
+                android:text="Anak (org)"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spOrangAnak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="260dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="280dp"
+                android:background="@drawable/rectangle_rounded_username"
+                android:contentDescription="dd"
+                android:minHeight="48dp" />
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
@@ -364,7 +339,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
-            android:layout_marginBottom="125dp"
+            android:layout_marginBottom="200dp"
             android:background="@drawable/rectangle_button_3"
             android:text="Booking Tiket" />
 
@@ -377,7 +352,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="280dp"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="120dp"
             android:background="@drawable/rectangle_button_3"
             android:text="Lihat Tiket" />
 
@@ -390,7 +365,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="280dp"
             android:layout_marginEnd="35dp"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="120dp"
             android:background="@drawable/rectangle_button_3"
             android:text="Logout" />
     </RelativeLayout>
