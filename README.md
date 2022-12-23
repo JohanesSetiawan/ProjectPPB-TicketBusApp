@@ -9,4 +9,8 @@ Layar: 1520x720
 
 !! PAKAI EMULATOR BAWAAN ANDROID STUDIO SAJA !!
 
+Rincian:
+
+![image](https://user-images.githubusercontent.com/86767136/209273003-b3995cb8-fdb5-4eba-876a-324fd035b03d.png)
+
 Progress bisa check di ChangeLog - TicketBusApp.txt
